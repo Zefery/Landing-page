@@ -1,0 +1,162 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+
+    background-color: #1f2937;
+}
+.nav-link{
+    display: flex;
+    gap: 15px;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7e5;
+
+    text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+/*  */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 80px;
+
+    background-color: #1f2937;
+    gap: 15px;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero-second{
+    font-size: 18px;
+    color: #e5e7e5;
+}
+.hero-photo{
+    background-color: gray;
+    border: 1px gray solid;
+    height: 250px;
+    width: 500px;
+}
+.hero-button button{
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+/*  */
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+.info-header .info-header-text{
+    font-weight: 900;
+    color: #1f291f;
+    font-size: 36px;
+}
+.info-main-fill{
+    width: 155px;
+    height: 200px;
+    text-align: center;
+}
+.info-main .info-main-fill .info-box{
+    border-radius: 10px;
+    border: 3px #3882f6 solid;
+
+    width: 150px;
+    height: 150px;
+}
+/*  */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+    padding: 80px 250px 60px;
+    background-color: #e5e7eb;
+
+
+}
+.quote-fill{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+.quote-author{
+    align-self: flex-end;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+.quote-fill .quote-author{
+    width: 780px;
+}
+/*  */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-fill{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3882f6;
+    
+    margin-top: 100px;
+    padding: 30px;
+    width: 1000px;
+
+    border-radius: 8px;
+}
+.banner-main h3, p{
+    color: white;
+}
+.btn-banner{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+
+    width: 100px;
+    height: 40px;
+}
